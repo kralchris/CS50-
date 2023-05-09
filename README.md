@@ -1,4 +1,4 @@
-# CS50 - Cryptography
+# CS50 - Cryptography Project
 CS50 Final Project
 
 <h1>Project Description</h1>
@@ -37,3 +37,7 @@ CS50 Final Project
 <pre><code>python app.py</code></pre>
 
 <p>Note: Make sure you have the necessary dependencies installed by running <code>pip install -r requirements.txt</code>.</p>
+
+<h2>Preview:</h2>
+
+![preview](https://github.com/kralchris/CS50-/assets/90260861/fad2a4a0-0c60-4108-bb56-48979430b414)
