@@ -1,4 +1,4 @@
-# CS50-
+# CS50 - Cryptography
 CS50 Final Project
 
 <h1>Project Description</h1>
