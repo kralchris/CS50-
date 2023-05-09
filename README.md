@@ -26,7 +26,8 @@ CS50 Final Project
 
 <h2>Encryption Method</h2>
 
-<p>The encryption method used in this project is ChaCha20. ChaCha20 is a symmetric encryption algorithm that provides high security and performance.</p>
+<p>The encryption method used in this project is ChaCha20. ChaCha20 is a symmetric encryption algorithm that provides high security and performance.
+It is a fast and secure stream cipher encryption algorithm. It uses a 256-bit key and a 64-bit nonce to initialize its state array. Through a series of mixing and round operations, it generates a keystream block. This keystream is XORed with the plaintext or ciphertext to perform encryption or decryption. ChaCha20 is known for its simplicity, speed, and resistance to cryptographic attacks when used correctly. It is widely used in applications like secure messaging protocols and disk encryption.</p>
 
 <h2>Backend</h2>
 
