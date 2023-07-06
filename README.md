@@ -41,3 +41,30 @@ CS50 Final Project
 <h2>Preview:</h2>
 
 ![preview](https://github.com/kralchris/CS50-/assets/90260861/fad2a4a0-0c60-4108-bb56-48979430b414)
+
+<h2>Code Breakdown</h2>
+<p>The application uses the Flask framework to handle HTTP requests and responses.
+
+The / route serves as the home page, which renders the index.html template.
+
+The /encrypt route is triggered when the user submits a form to encrypt a file.
+<br><br><b>It performs the following steps:</b>
+
+Retrieves the secret key from the user's input.
+Generates a random salt and derives a key using PBKDF2 with the provided key and salt.
+Generates a random initialization vector (IV).
+Reads the contents of the input file to be encrypted.
+Initializes a ChaCha20 cipher with the derived key and IV.
+Encrypts the plaintext using the cipher.
+Writes the salt, IV, and ciphertext to an output binary file.
+Renders the success.html template to display a success message.
+The /decrypt route is triggered when the user submits a form to decrypt a file.
+<br><br><b>It performs the following steps:</b><br><br>
+Retrieves the secret key from the user's input.
+Reads the salt, IV, and ciphertext from the encrypted binary file.
+Derives the key using PBKDF2 with the provided key and salt.
+Initializes a ChaCha20 cipher with the derived key and IV.
+Decrypts the ciphertext using the cipher.
+Writes the decrypted plaintext to an output text file.
+Renders the success.html template to display a success message.
+The application runs when the script is executed directly (if __name__ == "__main__"). It runs the Flask app with debug mode disabled.</p>
