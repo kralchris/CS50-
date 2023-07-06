@@ -1,6 +1,8 @@
 # CS50 - File Encryption Project
 CS50 Final Project
 
+[Video Demo: URLLLLLLLLLLLLLLL](https://link-url-here.org)
+
 <h1>Project Description</h1>
 
 <p>This project is a Flask-based web application that provides encryption and decryption functionalities using the ChaCha20 algorithm.</p>
@@ -35,8 +37,6 @@ CS50 Final Project
 <p>To run the application, execute the following command:</p>
 
 <pre><code>python app.py</code></pre>
-
-<p>Note: Make sure you have the necessary dependencies installed by running <code>pip install -r requirements.txt</code>.</p>
 
 <h2>Preview:</h2>
 
